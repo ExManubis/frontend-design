@@ -9,9 +9,7 @@ section {
 	color: var(--gray-900);
 
 	@media (max-width: 600) {
-		section {
-			grid-template-columns: 1fr;
-		}
+		grid: revert;
 	}
 
 	h2 {
